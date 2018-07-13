@@ -1,0 +1,125 @@
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        
+
+\moderncvstyle{classic}          
+
+\moderncvcolor{blue}            
+
+\usepackage[utf8]{inputenc}      
+
+\usepackage[scale=0.75]{geometry}
+
+\name{Obaid}{Kakar}
+
+
+\address{Room No 121 archar Road}{Quetta}{Pakistan}
+
+\phone[fax]{+923131806681}                      
+
+\email{obaidkakar72@gmail.com}                               
+
+\homepage{}                         
+
+\extrainfo{IT Professional/programmer}                 
+
+\photo[64pt][0.4pt]{_DSC0815.jpg}                       % optional, remove / REPLACING THE ABOVE BY THIS
+
+
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{2013--2017}{Bachelors Sciences in Information Technology}{University of Balochistan}{Quetta}{\textit{A}}{Four Year Program}  % arguments 3 to 6 can be left empty
+\cventry{2015}{BA(Bachelors of Arts, Private)}{University OF Balochistan}{Quetta}{\textit{B}}{}
+
+\cventry{2011--2013}{Intermidiate (Pre-Engineering)}{Govt Science College}{Quetta}{\textit{B+}}{}
+
+\cventry{2011}{Matriculation}{Govt High School Nasai} {Killa saifullah}{\textit{}}{}
+
+
+%\section{Master thesis}
+%\cvitem{title}{\emph{Title}}
+%\cvitem{supervisors}{Supervisors}
+%\cvitem{description}{Short thesis abstract}
+
+\section{Experience}
+%\subsection{Vocational}
+\cventry{2014--2016}{Computer Insstructor}{pearl Institute}{Quetta}{}{Teaching Basics of Computer and IT topics}
+
+\cventry{2016--2017}{Senior instructor}{muslim Information Teacchnology}{Advance Programs Of Computer}
+{}{}
+
+
+\section {Achivements}
+\begin{itemize}%
+\item Awarded Laptop Prime Minister Scheme(Govt.) 
+%\begin{itemize}%
+%  \item Sub-achievement (a);
+ % \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
+  %  \begin{itemize}
+   %\end{itemize}
+  %\item Sub-achievement (c);
+  %\end{itemize}
+\item Awarded Cheque from Balochistan Endowment fund(Govt.)
+\item Best Innvated Technology Awarded at Balochistan Summit invention to innovation  from Balochistan Endowment fund(Govt.)
+\end{itemize}
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description line \newline{}Description line 2}
+%\subsection{Miscellaneous}
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+
+\section{Languages}
+\cvitemwithcomment{English}{Read,Speak,Write}{Normal}
+\cvitemwithcomment{Urdu}{Read,Speak,Write}{Normal}
+\cvitemwithcomment{Pashto}{Read,Speak,Write}{High}
+
+\section{Computer skills}
+\begin{itemize}
+    \item {Programming} {JAVA,C, C(sharp),Ruby on Rails}
+     \item{Database Desiging}{SQL}{MS Access}
+     \item{Arduino Based Projects}
+     \item{MS Office, Corel Draw,Adope Photoshop}
+     \item{Research Report Writting, Technical Report Writting}
+     \item{Excellent Conceptual And Analytical Skills}
+     \item{Effective interpersonal Skills}
+     
+\end{itemize}
+
+
+
+\section{Interests}
+
+\cvitem{Programming}{}
+
+\cvitem{Music}{}
+\cvitem{Technology}{}
+\cvitem{Gaming}{}
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+%\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+
+\section{References}
+\begin{cvcolumns}
+  \cvitemwithcomment{Dr.Shumail Naveed}{Professor}{Department of Computer Science and Information Technology University of Balochistan}
+  
+\end{cvcolumns}
+
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}     
+
+\clearpage
+
+
+\end{document}
+
+
+
